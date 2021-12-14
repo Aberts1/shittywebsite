@@ -1,0 +1,55 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(246, 244, 244);
+}
+.menu{
+    display: flex;
+    justify-content: center;   
+}
+.menubuttons{
+    display: flex;
+    text-decoration: none;
+    color: lightblue;
+    background-color: darkgray;
+    padding: 4px;
+    margin: 2px;
+    border: 2px solid black;
+    
+}
+.titles{  
+    padding: 10px;  
+    margin-bottom: 5px;
+}
+.textarea1{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    width: 800px;
+    justify-content: center;     
+}
+.information{
+    background-color: lightcyan;
+    display: flex;
+    justify-content: space-evenly; 
+    align-self: flex-start;
+}
+.phonenumber{
+    background-color: lightcyan;
+}
+.address{
+    background-color: lightcyan;
+}
+.extrainformation{
+    background-color: lightcyan;
+    align-self: center;
+} 
+.extra{
+    background-color: lightcyan;
+}
+.logo{
+    float: right;
+    height: auto;
+    width: 350px;
+}
+
+
